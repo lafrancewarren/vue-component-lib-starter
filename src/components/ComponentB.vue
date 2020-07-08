@@ -1,7 +1,8 @@
 <template>
   <div class="global-style component-b">
     <input type="text" v-model="value">
-    <button @click="onClick">Click me</button>
+    <button @click="onClick">Click me</button><br />
+    <v-btn @click="onClick">Vuetify Click Me</v-btn>
   </div>
 </template>
 
